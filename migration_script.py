@@ -3,16 +3,16 @@ import time
 from tqdm import tqdm
 
 # Source database details
-SOURCE_API_KEY = "3cfb3661-3bbb-4407-876f-fae4b939c696"
-SOURCE_ENV = "apw5-4e34-81fa"
-SOURCE_INDEX = "cg-web"
-SOURCE_PROJECT_ID = "td2ku85"
+SOURCE_API_KEY = "Your API key"
+SOURCE_ENV = "Your ENV"
+SOURCE_INDEX = "Your Index"
+SOURCE_PROJECT_ID = "Your Project ID"
 
 # Destination database details
-DEST_API_KEY = "pcsk_4BnXVK_ETaQTT3hpLAcJxGEWq7FqhkNfKKN6Mvv3ptexvyyw4C5YbRHSqGhrUuXi2sqKDx"  # You need to add your destination API key
-DEST_INDEX = "ccs-agent-vdb"
-DEST_HOST = "https://ccs-agent-vdb-wo8wu73.svc.aped-4627-b74a.pinecone.io"
-DEST_ENVIRONMENT = "us-east-1"  # We're using the region as environment here
+DEST_API_KEY = "Your API key"  # You need to add your destination API key
+DEST_INDEX = "Your Index"
+DEST_HOST = "Pinecone Link"
+DEST_ENVIRONMENT = "Your Env"  # We're using the region as environment here
 
 # Batch size for fetching and inserting vectors
 BATCH_SIZE = 196
